@@ -6,7 +6,7 @@
   <title>NexMeet</title>
   <link href="https://fonts.googleapis.com/css2?family=Syne:wght@600;800&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css" />
-  <script src="http://127.0.0.1:5000/socket.io/socket.io.js"></script>
+  <script src="https://codealpha-nexmeetapp.onrender.com/socket.io/socket.io.js"></script>
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -542,7 +542,7 @@
   <div id="toast" class="toast hidden"></div>
 
 <script>
-const API = 'http://127.0.0.1:5000';
+const API = 'https://codealpha-nexmeetapp.onrender.com';
 let token = localStorage.getItem('nx_token');
 let username = localStorage.getItem('nx_user');
 let socket = null;
